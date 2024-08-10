@@ -1,0 +1,243 @@
+body{
+  background-color: #fff;
+  color: #000;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+main{
+  overflow: hidden;
+}
+
+.header-img{
+  background-color: #1FAC08;
+  width: 100%;
+  height: 300px;
+}
+
+.header{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.header-img img{
+  width: 100%;
+  height: 300px;
+  background-color: transparent;
+  opacity: 0.5;
+}
+
+.header h1{
+  text-transform: uppercase;
+  font-size: 54px;
+  color: #fff;
+  padding: 160px 0;
+  position: absolute;
+  
+}
+
+.body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.body{
+  padding: 45px;
+}
+
+.latestEvent h3{
+  text-transform: capitalize;
+  font-weight: bold;
+}
+.recentEvent h3{
+  text-transform: capitalize;
+  font-weight: bold;
+}
+.recentEvent{
+  margin: 25px;
+}
+
+.latestEvent{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.latestEvent{
+  margin: 25px;
+}
+
+
+.boder{
+  width: 100%;
+  height: auto;
+  border: 2px solid #000;
+  outline: 2px;
+  padding: auto;
+  position: sticky;
+}
+
+.boder{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.recentEvent{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.blogSection p{
+  text-transform: capitalize;
+  font-size: 40px;
+}
+
+.blogSection{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.blogSection{
+  margin: 25px;
+}
+
+.section{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section{
+  width: 100%;
+  height: auto;
+}
+
+
+.section-img img{
+  width: 100%;
+  height: 200px;
+}
+
+
+.section-text{
+  width: 50%;
+  height: auto;
+  padding: 30px 0;
+}
+
+.section-text h4{
+  text-transform: capitalize;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.date-name{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 50px;
+}
+
+.date-name small{
+  font-size: 18px;
+  text-transform: capitalize;
+}
+
+.text small{
+  font-size: 18px;
+}
+
+.date{
+  width: 20%;
+  height: 300px;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  font-size: 0;
+}
+
+.date{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.date p{
+  font-weight: bold;
+  font-size: 100px;
+  color: #1FAC08;
+  display: block;
+}
+.date span{
+  font-weight: bold;
+  font-size: 40px;
+  display: block;
+}
+
+.daawahEvent{
+  width: 80%;
+  height: auto;
+  position: relative;
+}
+
+.daawahEvent p{
+  text-transform: capitalize;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.venueTime{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 50px;
+}
+
+.venueTime small{
+  font-size: 21px;
+  text-transform: capitalize;
+}
+
+.daawahEvent small{
+  text-transform: capitalize;
+  font-size: 21px;
+}
+
+.daawahEvent a{
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+
+@media screen and (max-width: 1024px) {
+  .latestEvent, .recentEvent, .blogSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  
+}
